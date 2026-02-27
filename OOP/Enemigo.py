@@ -1,7 +1,7 @@
 class Enemigo:
     tipo_enemigo: str
     puntos_energia: int = 10
-    ataque = 1
+    ataque =1
 
     def __init__(self, tipo_enemigo, puntos_energia = 10, ataque =1):
         self._tipo_enemigo = tipo_enemigo 
@@ -12,7 +12,7 @@ class Enemigo:
         return self._tipo_enemigo
     
     def habla(self):
-        print(f"{self._tipo_enemigo}.preparadp para pelear !!")
+        print(f" yo son{self._tipo_enemigo}.preparado para pelear !!")
 
     def camina(self):
         print(f"{self._tipo_enemigo} se mueve cerca de ti!!")
